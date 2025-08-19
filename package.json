@@ -10,6 +10,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "postinstall": "chmod +x node_modules/.bin/vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
